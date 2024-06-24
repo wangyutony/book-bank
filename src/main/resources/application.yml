@@ -1,0 +1,17 @@
+spring:
+    application:
+        name: tony-rest-api-service
+    datasource:
+        password: ${DB_PW}
+        url: ${DB_URL}
+        username: ${DB_USER}
+    jpa:
+        hibernate:
+            ddl-auto: validate
+
+book:
+    store:
+        name: Harbada
+        type: public
+    reader:
+        name: private
